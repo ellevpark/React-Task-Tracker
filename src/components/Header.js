@@ -8,12 +8,10 @@ const Header = ({title}) => {
     console.log("Click!")
   }
     return (
-      <div className = 'container'>
-        <header className= 'header'>
-          <h1>{title}</h1>
-          <Button color='blue' text='Add' onClick = {onClick}/>
-        </header>
-      </div>
+      <header className= 'header'>
+        <h1>{title}</h1>
+        <Button color='blue' text='Add' onClick = {onClick}/>
+      </header>
       
     )
 }
